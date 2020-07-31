@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <link rel="stylesheet" href="../css/tablas.css">
+</head>
+<body>
+    <header>
+        <h1>Ejercicio Tablas</h1>
+    </header>
+    <main>
+        <section id="section1">
+            <h2>Ejercicio 2</h2>
+            <p>Crear una tabla con la información dada.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Modelo</th>
+                        <th>Peso en kg</th>
+                        <th>Puertas</th>
+                        <th>Motor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ford</td>
+                        <td>1200</td>
+                        <td>5</td>
+                        <td>HDI 150 cv</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="section2">
+            <h2>Ejercicio 3</h2> 
+            <p>Crear una tabla con al menos un colspan.</p>
+            <article>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Lunes</th>
+                            <th>Martes</th>
+                            <th>Miercoles</th>
+                            <th>Jueves</th>
+                            <th>Viernes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Html</td>
+                            <td>CSS</td>
+                            <td>Java</td>
+                            <td>CSS</td>
+                            <td>Ruby</td>
+                        </tr>
+                        <tr>
+                            <td class="recreo" colspan="5">Recreo</td>
+                        </tr>
+                        <tr>
+                            <td>Go</td>
+                            <td>CSS</td>
+                            <td>Angular</td>
+                            <td>Angular</td>
+                            <td>Kotlin</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+        <section>
+            <h2>Ejercicio 4</h2>
+            <p>Crear una tabla con al menos un rowspan.</p>
+            <article>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Lunes</th>
+                            <th>Martes</th>
+                            <th>Miercoles</th>
+                            <th>Jueves</th>
+                            <th>Viernes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Go</td>
+                            <td rowspan="2">CSS</td>
+                            <td>Angular</td>
+                            <td>Angular</td>
+                            <td>Kotlin</td>
+                        </tr>
+                        <tr>
+                            <td>Html</td>
+                            <!-- <td>CSS</td> -->
+                            <td>Java</td>
+                            <td>CSS</td>
+                            <td>Ruby</td>
+                        </tr>
+                        <tr>
+                            <td>Go</td>
+                            <td>CSS</td>
+                            <td>Angular</td>
+                            <td>Angular</td>
+                            <td>Kotlin</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+        <section>
+            <h2>Ejercicio 5</h2>
+            <p>Crear una tabla semánticamente correcta.</p>
+        </section>
+    </main>
+</body>
+</html>
