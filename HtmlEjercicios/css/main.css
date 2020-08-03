@@ -1,8 +1,7 @@
 header {
-    position: fixed;
+    position: relative;
     background-color: white;
     width: 100%;
-    margin-top: -9px;
 }
 
     .h1 {
@@ -12,22 +11,19 @@ header {
     .ul {
         list-style: none;
         display: flex;
-        margin-left: auto;
-        margin-right: auto;
         flex-wrap: wrap;
-        justify-content: space-around;
-        padding: 0;
-    }
+        }
      li {
-         padding: 10px;
+         padding: 11px;
      }
          a {
              text-decoration: none;
-         }
+             color: rgb(8, 8, 197);
+            }
 
 main {
     width: 80%;
     margin: auto;
-    padding-top: 15vw;
+    /* padding-top: 15vw; */
 }
 

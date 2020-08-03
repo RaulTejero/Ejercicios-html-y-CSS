@@ -5,6 +5,7 @@ header {
 main {
     display: flex;
     flex-wrap: wrap;
+    /* justify-content: right; */
 }
     section {
         text-align: center;
@@ -13,10 +14,22 @@ main {
             padding: 20px;
             width: 100%;
         }
-            th, td {
-                border: 1px solid black;
+            thead {
+                background-color: rgb(142, 142, 241);
             }
+            tbody {
+                background-color: rgb(217, 255, 180);
+            }
+            tfoot {
+                background-color: rgb(151, 151, 151);
+            }
+                [colspan="5"] {
+                    background-color: coral;
+                }
+                th, td {
+                    border: 1px solid black;
+                }
                 
-            .recreo {
-                text-align: center;
-            }
+                .recreo {
+                    text-align: center;
+                }
