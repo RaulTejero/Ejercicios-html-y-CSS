@@ -1,0 +1,8 @@
+input {
+    margin: 8px auto;
+}
+
+[name="send"]:active {
+    transform: scale(0.80);
+    transition:all 0.2s ease ;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <h1>Forms</h1>
+    </header>
+    <main>
+        <form action="#">
+            <fieldset>
+                <legend>Datos de usuario</legend>
+                    <input type="text" name="userName" placeholder="Nombre de usuario" maxlength="30" required>
+                    <br>
+                    <input type="password" name="userPassword" placeholder="contraseña"maxlength="8" required>
+                    <br>
+                    <label for="#">Imagen de usuario</label>
+                    <input type="file" name="imgUser" id="imgUser">
+            </fieldset>
+            <fieldset>
+                <legend>Datos personales</legend>
+                    <select name="treat">
+                        <option value="Sr.">Sr</option>
+                        <option value="Sra.">Sra</option>
+                    </select>
+                    <br>
+                    <input type="text" name="name" maxlength="30" placeholder="Nombre" required>
+                    <br>
+                    <input type="text" name="surnames" maxlength="30" placeholder="apellidos" required>
+                    <br>
+                    <label>Fecha de nacimiento
+                        <input type="date" name="age"  min="1900-1-1" max="2020-12-31">
+                    </label>
+                    <br>
+                    <select name="country">
+                        <option value="Ninguno">Pais de nacimiento</option>
+                        <optgroup label="Europa">
+                            <option value="German">Alemania</option>
+                            <option value="Spain">España</option>
+                        </optgroup>
+                        <optgroup label="America">
+                            <option value="EEUU">EEUU</option>
+                            <option value="Mexico">Mexico</option>
+                        </optgroup>
+                    </select>
+                    
+            </fieldset>
+            <fieldset>
+                <legend>Supcripciones</legend>
+                <p> ¿Quieres recibir publicidad?</p>
+                <label>
+                   <input type="radio" name="publi" id="">
+                    No
+                </label>
+                <label>
+                    <input type="radio" name="publi" id="" required>
+                    Si
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="condiciones" id="" required>
+                    Si, acepto las <a href="http://" target="_blank" rel="noopener noreferrer">condiciones de uso</a>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Deja un comentario</legend>
+                <textarea name="comentario" id="" cols="60" rows="6"></textarea>
+            </fieldset>
+            <br>
+            <input type="image" name="send" src="./img/button.png" >
+        </form>
+    </main>
+</body>
+</html>
