@@ -77,12 +77,21 @@ div {
     }
 }
 
+.section4 {
+    text-align: center;
+}
 .item4 {
     animation-name: sentido;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease;
+    animation-delay: 3s;
+    padding: 3px;
+}
+
+button {
+    padding: 1.5em;
 }
 
 @keyframes sentido {
