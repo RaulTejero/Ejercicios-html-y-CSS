@@ -3,6 +3,8 @@ const $caja = document.querySelector("#caja4");
 
 
 $button.addEventListener("click",()=>{
-    $caja.className = "item4";
-    $caja.textContent = "Ya has pulsado";
+    $caja.className = "animacion";
+    $caja.textContent = "Activado";
+    $caja.style.paddingTop = "40px";
+    $caja.style.backgroundColor = "green";
 })

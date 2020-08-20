@@ -81,6 +81,10 @@ div {
     text-align: center;
 }
 .item4 {
+    padding-top: 40px;
+}
+
+.animacion {
     animation-name: sentido;
     animation-duration: 10s;
     animation-iteration-count: infinite;
@@ -101,7 +105,7 @@ button {
     }
     50% {
         transform: translateX(1160%);
-        background-color: green;
+        background-color: orange;
     }
     75% {
          transform: translateY(240%);
