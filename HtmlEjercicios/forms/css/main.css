@@ -3,6 +3,13 @@ input {
 }
 
 [name="send"]:active {
-    transform: scale(0.80);
-    transition:all 0.2s ease ;
+    animation-name: scale;
+    animation-duration: .5s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes scale {
+    50% {
+        transform: scale(.9);
+    }
 }
