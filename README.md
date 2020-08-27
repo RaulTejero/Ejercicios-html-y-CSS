@@ -1,18 +1,19 @@
+
 # Ejercicios basicos Html
 
-## Etiquetado de una pagina web.
+>##  Etiquetado de una pagina web.
 * Tags
 * Enlaces
-1 Navecacion a otros enlaces relativos y absolutos.
-2 Navecacion a seciones
+1. Navecacion a otros enlaces relativos y absolutos.
+2. Navecacion a seciones
 
-## Tablas
+>## Tablas
 
 * Sintaxis
 * colspan
 * rowspan
 
-## Transiciones y posiciones
+>## Transiciones y posiciones
 
 * Position
 * Transform
